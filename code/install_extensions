@@ -1,0 +1,4 @@
+code --install-extension ms-dotnettools.csdevkit
+code --install-extension vscodevim.vim
+code --install-extension humao.rest-client
+code --install-extension usernamehw.errorlens

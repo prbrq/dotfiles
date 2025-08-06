@@ -1,0 +1,12 @@
+{
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "CaskaydiaMono Nerd Font",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "React Theme",
+    "workbench.sideBar.location": "right",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.activityBar.location": "hidden"
+}

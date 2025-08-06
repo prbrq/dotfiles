@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -sf ./code/settings.json ~/.config/Code/User/settings.json
-ln -sf ./code/keybindings.json ~/.config/Code/User/keybindings.json
+ln -sf "$(pwd)/code/settings.json" ~/.config/Code/User/settings.json
+ln -sf "$(pwd)/code/keybindings.json" ~/.config/Code/User/keybindings.json
 
 bash ./code/install_extensions

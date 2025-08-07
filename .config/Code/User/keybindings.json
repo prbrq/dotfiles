@@ -1,5 +1,19 @@
-// Place your key bindings in this file to override the defaults
 [
+    {
+        "key": "t",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "m",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
     {
         "key": "shift+meta+e",
         "command": "workbench.view.explorer",

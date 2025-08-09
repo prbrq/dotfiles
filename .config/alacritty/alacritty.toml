@@ -1,0 +1,14 @@
+[window]
+startup_mode = "Maximized"
+
+opacity = 0.9
+
+[font]
+normal.family = 'CaskaydiaMono Nerd Font'
+bold.family = 'CaskaydiaMono Nerd Font'
+italic.family = 'CaskaydiaMono Nerd Font'
+bold_italic.family = 'CaskaydiaMono Nerd Font'
+size = 16
+
+[selection]
+save_to_clipboard = true

@@ -12,5 +12,6 @@
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false
 }

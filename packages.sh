@@ -37,3 +37,4 @@ yay -Syu --needed \
     zsh \
     syncthing \
     stow \
+    wl-clipboard \

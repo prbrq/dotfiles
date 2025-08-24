@@ -38,3 +38,4 @@ yay -Syu --needed \
     syncthing \
     stow \
     wl-clipboard \
+    netpad-bin \

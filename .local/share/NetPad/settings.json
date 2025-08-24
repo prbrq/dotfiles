@@ -22,6 +22,7 @@
       "cursorBlinking": "smooth",
       "lineNumbers": "relative",
       "fontSize": 16,
+      "fontFamily": "CaskaydiaMono Nerd Font",
       "wordWrap": "off",
       "mouseWheelZoom": true,
       "minimap": {

@@ -1,0 +1,39 @@
+#!/bin/sh
+
+yay -Syu --needed \
+    noto-fonts \
+    noto-fonts-cjk \
+    noto-fonts-emoji \
+    noto-fonts-extra \
+    aspnet-runtime \
+    base-devel \
+    docker \
+    docker-buildx \
+    docker-compose \
+    dotnet-sdk \
+    fastfetch \
+    fzf \
+    git \
+    btop \
+    keepassxc \
+    alacritty \
+    man-db \
+    man-pages \
+    mpv \
+    neovim \
+    obsidian \
+    qbittorrent \
+    telegram-desktop \
+    ttf-cascadia-mono-nerd \
+    zoxide \
+    ffmpeg \
+    jq \
+    fd \
+    ripgrep \
+    unzip \
+    visual-studio-code-bin \
+    amneziavpn-bin \
+    brave-bin \
+    zsh \
+    syncthing \
+    stow \

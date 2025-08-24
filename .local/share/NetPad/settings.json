@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "autoCheckUpdates": true,
+  "dotNetSdkDirectoryPath": null,
+  "scriptsDirectoryPath": "/home/arkady/Documents/NetPad/Scripts",
+  "autoSaveScriptsDirectoryPath": "/home/arkady/.local/share/NetPad/AutoSave/Scripts",
+  "packageCacheDirectoryPath": "/home/arkady/.local/share/NetPad/Cache/Packages",
+  "appearance": {
+    "theme": "Dark",
+    "iconTheme": "Colorful",
+    "showScriptRunStatusIndicatorInTab": true,
+    "showScriptRunStatusIndicatorInScriptsList": false,
+    "showScriptRunningIndicatorInScriptsList": false,
+    "titlebar": {
+      "type": "Integrated",
+      "windowControlsPosition": "Right",
+      "mainMenuVisibility": "AlwaysVisible"
+    }
+  },
+  "editor": {
+    "monacoOptions": {
+      "cursorBlinking": "smooth",
+      "lineNumbers": "relative",
+      "fontSize": 16,
+      "wordWrap": "off",
+      "mouseWheelZoom": true,
+      "minimap": {
+        "enabled": true
+      },
+      "themeCustomizations": {
+        "colors": {},
+        "rules": []
+      }
+    },
+    "vim": {
+      "enabled": true
+    }
+  },
+  "results": {
+    "openOnRun": true,
+    "textWrap": false,
+    "font": null,
+    "maxSerializationDepth": 64,
+    "maxCollectionSerializeLength": 1000
+  },
+  "styles": {
+    "enabled": false,
+    "customCss": null
+  },
+  "keyboardShortcuts": {
+    "shortcuts": []
+  },
+  "omniSharp": {
+    "enabled": true,
+    "executablePath": null,
+    "enableAnalyzersSupport": true,
+    "enableImportCompletion": true,
+    "enableSemanticHighlighting": true,
+    "enableCodeLensReferences": true,
+    "diagnostics": {
+      "enabled": true,
+      "enableInfo": true,
+      "enableWarnings": true,
+      "enableHints": true
+    },
+    "inlayHints": {
+      "enableParameters": true,
+      "enableIndexerParameters": false,
+      "enableLiteralParameters": false,
+      "enableObjectCreationParameters": false,
+      "enableOtherParameters": true,
+      "suppressForParametersThatDifferOnlyBySuffix": true,
+      "suppressForParametersThatMatchMethodIntent": true,
+      "suppressForParametersThatMatchArgumentName": true,
+      "enableTypes": true,
+      "enableImplicitVariableTypes": false,
+      "enableLambdaParameterTypes": true,
+      "enableImplicitObjectCreation": true
+    }
+  }
+}

@@ -39,3 +39,4 @@ yay -Syu --needed \
     stow \
     wl-clipboard \
     netpad-bin \
+    nvm \

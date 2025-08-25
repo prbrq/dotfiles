@@ -6,8 +6,8 @@
   "autoSaveScriptsDirectoryPath": "/home/arkady/.local/share/NetPad/AutoSave/Scripts",
   "packageCacheDirectoryPath": "/home/arkady/.local/share/NetPad/Cache/Packages",
   "appearance": {
-    "theme": "Dark",
-    "iconTheme": "Colorful",
+    "theme": "Light",
+    "iconTheme": "Default",
     "showScriptRunStatusIndicatorInTab": true,
     "showScriptRunStatusIndicatorInScriptsList": false,
     "showScriptRunningIndicatorInScriptsList": false,

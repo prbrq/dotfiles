@@ -13,5 +13,10 @@
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.location": "hidden",
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.showIcons": false,
+    "workbench.editor.labelFormat": "medium",
+    "breadcrumbs.enabled": false
 }

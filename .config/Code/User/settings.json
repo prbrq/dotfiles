@@ -18,5 +18,7 @@
     "workbench.editor.showTabs": "single",
     "workbench.editor.showIcons": false,
     "workbench.editor.labelFormat": "medium",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 2,
     "breadcrumbs.enabled": false
 }

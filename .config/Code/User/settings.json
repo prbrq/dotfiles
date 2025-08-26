@@ -3,7 +3,7 @@
     "editor.fontFamily": "CaskaydiaMono Nerd Font",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "React Dev Theme (light)",
+    "workbench.colorTheme": "Gruvbox Material Dark",
     "git.openRepositoryInParentFolders": "always",
     "workbench.sideBar.location": "right",
     "explorer.confirmDelete": false,

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yay -Syu --needed \
+pacman -Syu --needed \
     noto-fonts \
     noto-fonts-cjk \
     noto-fonts-emoji \
@@ -31,12 +31,14 @@ yay -Syu --needed \
     fd \
     ripgrep \
     unzip \
-    visual-studio-code-bin \
-    amneziavpn-bin \
-    brave-bin \
     zsh \
     syncthing \
     stow \
     wl-clipboard \
-    netpad-bin \
     nvm \
+
+yay -Syu --needed \
+    netpad-bin \
+    brave-bin \
+    visual-studio-code-bin \
+    amneziavpn-bin \

@@ -70,7 +70,7 @@ ZSH_THEME="simple"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git ssh)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,6 +105,12 @@ source $ZSH/oh-my-zsh.sh
 
 source /usr/share/nvm/init-nvm.sh
 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 export PATH="$PATH:$HOME/.dotnet/tools"
 
 eval "$(zoxide init zsh)"
+
+eval "$(starship init zsh)"
+

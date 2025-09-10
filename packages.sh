@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pacman -Syu --needed \
+sudo pacman -Syu --needed \
     noto-fonts \
     noto-fonts-cjk \
     noto-fonts-emoji \
@@ -36,6 +36,8 @@ pacman -Syu --needed \
     stow \
     wl-clipboard \
     nvm \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting \
 
 yay -Syu --needed \
     netpad-bin \

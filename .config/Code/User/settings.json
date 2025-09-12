@@ -21,5 +21,10 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 2,
     "breadcrumbs.enabled": false,
-    "cSpell.language": "en,ru"
+    "cSpell.language": "en,ru",
+    "cSpell.userWords": [
+        "Arkady",
+        "Dumpify",
+        "Newtonsoft"
+    ]
 }

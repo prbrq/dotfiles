@@ -4,7 +4,7 @@ export PATH="$PATH:$HOME/.applinks"
 
 export PATH="$PATH:$HOME/.dotnet/tools"
 
-plugins=(git ssh zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git ssh zsh-syntax-highlighting zsh-autosuggestions dotnet)
 
 source $ZSH/oh-my-zsh.sh
 

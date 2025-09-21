@@ -25,6 +25,8 @@
     "cSpell.userWords": [
         "Arkady",
         "Dumpify",
+        "fantomas",
         "Newtonsoft"
-    ]
+    ],
+    "chat.disableAIFeatures": true
 }

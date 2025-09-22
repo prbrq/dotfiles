@@ -3,7 +3,7 @@
     "editor.fontFamily": "CaskaydiaMono Nerd Font",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "React Theme",
+    "workbench.colorTheme": "React Dev Theme (light)",
     "git.openRepositoryInParentFolders": "always",
     "workbench.sideBar.location": "right",
     "explorer.confirmDelete": false,
@@ -28,5 +28,6 @@
         "fantomas",
         "Newtonsoft"
     ],
-    "chat.disableAIFeatures": true
+    "chat.disableAIFeatures": true,
+    "editor.smoothScrolling": true
 }

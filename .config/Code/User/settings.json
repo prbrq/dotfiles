@@ -13,7 +13,6 @@
     "breadcrumbs.enabled": false,
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showIcons": false,
-    "workbench.editor.showTabs": "single",
     "workbench.editor.enablePreview": false,
     "git.openRepositoryInParentFolders": "always",
     "workbench.colorTheme": "Tokyo Night Light",
@@ -31,5 +30,9 @@
     },
     "git.confirmSync": false,
     "git.autofetch": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "cSpell.userWords": [
+        "Caskaydia"
+    ],
+    "terminal.integrated.initialHint": false
 }

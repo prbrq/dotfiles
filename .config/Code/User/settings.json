@@ -3,31 +3,30 @@
     "editor.fontFamily": "CaskaydiaMono Nerd Font",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "React Dev Theme (light)",
-    "git.openRepositoryInParentFolders": "always",
     "workbench.sideBar.location": "right",
     "explorer.confirmDelete": false,
-    "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
-    "window.commandCenter": false,
-    "window.menuBarVisibility": "compact",
-    "workbench.activityBar.location": "hidden",
-    "workbench.layoutControl.enabled": false,
-    "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "workbench.editor.showTabs": "single",
-    "workbench.editor.showIcons": false,
-    "workbench.editor.labelFormat": "medium",
-    "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.value": 2,
-    "breadcrumbs.enabled": false,
-    "cSpell.language": "en,ru",
-    "cSpell.userWords": [
-        "Arkady",
-        "Dumpify",
-        "fantomas",
-        "Newtonsoft"
-    ],
     "chat.disableAIFeatures": true,
-    "editor.smoothScrolling": true
+    "editor.smoothScrolling": true,
+    "cSpell.language": "en, ru",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.labelFormat": "medium",
+    "workbench.editor.showIcons": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.enablePreview": false,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorTheme": "Tokyo Night Light",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode",
+        "editor.formatOnSave": true
+    }
 }

@@ -30,5 +30,6 @@
         "editor.formatOnSave": true
     },
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
 }

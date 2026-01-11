@@ -1,0 +1,15 @@
+csharpier.csharpier-vscode
+editorconfig.editorconfig
+enkia.tokyo-night
+exiasr.hadolint
+humao.rest-client
+hverlin.mise-vscode
+ms-azuretools.vscode-containers
+ms-dotnettools.csdevkit
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
+qwenlm.qwen-code-vscode-ide-companion
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-russian
+tombi-toml.tombi
+vscodevim.vim

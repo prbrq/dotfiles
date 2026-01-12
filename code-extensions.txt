@@ -4,6 +4,7 @@ enkia.tokyo-night
 exiasr.hadolint
 humao.rest-client
 hverlin.mise-vscode
+mechatroner.rainbow-csv
 ms-azuretools.vscode-containers
 ms-dotnettools.csdevkit
 ms-dotnettools.csharp

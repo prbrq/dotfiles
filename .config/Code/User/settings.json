@@ -1,4 +1,5 @@
 {
+    "vim.useSystemClipboard": true,
     "editor.lineNumbers": "relative",
     "editor.fontFamily": "CaskaydiaMono Nerd Font",
     "editor.fontSize": 16,
@@ -15,7 +16,7 @@
     "workbench.editor.showIcons": false,
     "workbench.editor.enablePreview": false,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Tokyo Night Light",
+    "workbench.colorTheme": "Default Light Modern",
     "window.menuBarVisibility": "compact",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
@@ -32,6 +33,7 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "cSpell.userWords": [
+        "Arkady",
         "Caskaydia"
     ],
     "terminal.integrated.initialHint": false

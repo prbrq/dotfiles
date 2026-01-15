@@ -17,7 +17,7 @@
     "workbench.editor.showIcons": false,
     "workbench.editor.enablePreview": false,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "React Dev Theme (light)",
     "window.menuBarVisibility": "compact",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,

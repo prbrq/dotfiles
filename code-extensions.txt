@@ -5,6 +5,7 @@ exiasr.hadolint
 humao.rest-client
 hverlin.mise-vscode
 mechatroner.rainbow-csv
+mikaelkristiansson87.react-theme-vscode
 ms-azuretools.vscode-containers
 ms-dotnettools.csdevkit
 ms-dotnettools.csharp

@@ -37,5 +37,6 @@
         "Arkady",
         "Caskaydia"
     ],
-    "terminal.integrated.initialHint": false
+    "terminal.integrated.initialHint": false,
+    "workbench.activityBar.location": "top"
 }

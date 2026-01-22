@@ -32,3 +32,10 @@ stow .
 ```
 
 Stow создаст символические ссылки из файлов в этом репозитории в вашу домашнюю директорию.
+
+## VS Code Extensions
+
+В репозитории есть два скрипта для управления расширениями VS Code:
+
+- `install_vscode_extensions.sh` - устанавливает все расширения из файла `code-extensions.txt`
+- `export_vscode_extensions.sh` - экспортирует список установленных расширений в файл `code-extensions.txt`

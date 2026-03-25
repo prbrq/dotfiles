@@ -1,41 +1,70 @@
 # dotfiles
 
-## Предварительные требования
+Personal configuration files managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
-Перед использованием этих dotfiles убедитесь, что у вас установлены:
+## Contents
+
+| File | Description |
+|------|-------------|
+| `.zshrc` | Zsh config — oh-my-zsh, mise, zoxide, starship |
+| `.tmux.conf` | Tmux config — custom prefix, vim keys, status bar |
+
+## Prerequisites
 
 - [GNU Stow](https://www.gnu.org/software/stow/)
-- Git для клонирования репозитория
-- Mise
-- dotnet
-- hadolint
+- [oh-my-zsh](https://ohmyz.sh/)
+- [mise](https://mise.jdx.dev/)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [starship](https://starship.rs/)
+- [tmux](https://github.com/tmux/tmux)
 
-## Установка
-
-1. Клонируйте этот репозиторий в вашу домашнюю директорию:
+## Installation
 
 ```bash
 cd ~
 git clone https://github.com/prbrq/dotfiles.git
-```
-
-1. Перейдите в директорию dotfiles:
-
-```bash
-cd ~/dotfiles
-```
-
-1. Используйте Stow для создания симлинков нужных вам конфигураций:
-
-```bash
+cd dotfiles
 stow .
 ```
 
-Stow создаст символические ссылки из файлов в этом репозитории в вашу домашнюю директорию.
+Stow will create symlinks from this repo into your home directory.
 
-## VS Code Extensions
+## Tmux Cheatsheet
 
-В репозитории есть два скрипта для управления расширениями VS Code:
+Prefix: `Ctrl+a`
 
-- `install_vscode_extensions.sh` - устанавливает все расширения из файла `code-extensions.txt`
-- `export_vscode_extensions.sh` - экспортирует список установленных расширений в файл `code-extensions.txt`
+### Sessions & Windows
+
+| Key | Action |
+|-----|--------|
+| `prefix + c` | New window (in current dir) |
+| `prefix + n` | Next window |
+| `prefix + p` | Previous window |
+| `prefix + <` | Swap window left |
+| `prefix + >` | Swap window right |
+| `prefix + X` | Kill window |
+
+### Panes
+
+| Key | Action |
+|-----|--------|
+| `prefix + \|` | Split horizontally (in current dir) |
+| `prefix + -` | Split vertically (in current dir) |
+| `prefix + h/j/k/l` | Navigate panes (vim-style) |
+| `prefix + H/J/K/L` | Resize pane (repeatable) |
+| `prefix + x` | Kill pane |
+
+### Copy Mode
+
+| Key | Action |
+|-----|--------|
+| `prefix + v` | Enter copy mode |
+| `v` | Begin selection |
+| `y` | Copy selection to clipboard (`pbcopy`) |
+| `Escape` | Cancel |
+
+### Misc
+
+| Key | Action |
+|-----|--------|
+| `prefix + r` | Reload config |

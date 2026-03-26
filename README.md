@@ -24,7 +24,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 cd ~
 git clone https://github.com/prbrq/dotfiles.git
 cd dotfiles
-stow .
+stow --no-folding .
 ```
 
 Stow will create symlinks from this repo into your home directory.

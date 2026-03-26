@@ -1,0 +1,54 @@
+{
+    "update.mode": "none",
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "CaskaydiaMono Nerd Font",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "chat.disableAIFeatures": true,
+    "editor.smoothScrolling": true,
+    "cSpell.language": "en, ru",
+    "workbench.editor.labelFormat": "medium",
+    "workbench.editor.showIcons": false,
+    "workbench.editor.enablePreview": false,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorTheme": "React Dev Theme (light)",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode",
+        "editor.formatOnSave": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "cSpell.userWords": [
+        "appsettings",
+        "Arkady",
+        "Caskaydia",
+        "MIAC"
+    ],
+    "terminal.integrated.initialHint": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "claudeCode.preferredLocation": "sidebar",
+    "workbench.activityBar.location": "top",
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://raw.githubusercontent.com": true
+    }
+}

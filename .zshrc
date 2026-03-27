@@ -1,5 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+ZSH_THEME="refined"
+
 export PATH="$PATH:$HOME/.applinks"
 
 export PATH="$HOME/.local/bin:$PATH"
@@ -14,11 +16,14 @@ eval "$(~/.local/bin/mise activate zsh)"
 
 eval "$(zoxide init bash)"
 
-ZSH_THEME="refined"
-
 # bun completions
 [ -s "/home/arkady/.bun/_bun" ] && source "/home/arkady/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/arkady/.lmstudio/bin"
+# End of LM Studio CLI section
+

@@ -6,8 +6,10 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 
 | File | Description |
 |------|-------------|
-| `.zshrc` | Zsh config — oh-my-zsh, mise, zoxide, starship |
+| `.zshrc` | Zsh config — oh-my-zsh, mise, zoxide, bun |
 | `.tmux.conf` | Tmux config — custom prefix, vim keys, status bar |
+| `.config/Code/User/settings.json` | VS Code settings |
+| `.config/Code/User/keybindings.json` | VS Code keybindings |
 
 ## Prerequisites
 
@@ -15,8 +17,9 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 - [oh-my-zsh](https://ohmyz.sh/)
 - [mise](https://mise.jdx.dev/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
-- [starship](https://starship.rs/)
 - [tmux](https://github.com/tmux/tmux)
+- [bun](https://bun.sh/)
+- [VS Code](https://code.visualstudio.com/)
 
 ## Installation
 

@@ -14,7 +14,7 @@ eval "$(~/.local/bin/mise activate zsh)"
 
 eval "$(zoxide init bash)"
 
-eval "$(starship init zsh)"
+ZSH_THEME="refined"
 
 # bun completions
 [ -s "/home/arkady/.bun/_bun" ] && source "/home/arkady/.bun/_bun"

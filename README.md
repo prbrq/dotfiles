@@ -32,6 +32,13 @@ stow --no-folding .
 
 Stow will create symlinks from this repo into your home directory.
 
+Install zsh plugins:
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
 ## Tmux Cheatsheet
 
 Prefix: `Ctrl+a`

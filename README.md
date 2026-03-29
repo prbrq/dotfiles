@@ -6,7 +6,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 
 | File | Description |
 |------|-------------|
-| `.zshrc` | Zsh config — oh-my-zsh, mise, zoxide, bun |
+| `.zshrc` | Zsh config — zinit, mise, zoxide, bun |
 | `.tmux.conf` | Tmux config — custom prefix, vim keys, status bar |
 | `.config/Code/User/settings.json` | VS Code settings |
 | `.config/Code/User/keybindings.json` | VS Code keybindings |
@@ -14,7 +14,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 ## Prerequisites
 
 - [GNU Stow](https://www.gnu.org/software/stow/)
-- [oh-my-zsh](https://ohmyz.sh/)
+- [zinit](https://github.com/zdharma-continuum/zinit) — auto-installed on first shell load
 - [mise](https://mise.jdx.dev/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [tmux](https://github.com/tmux/tmux)
@@ -32,13 +32,7 @@ stow --no-folding .
 
 Stow will create symlinks from this repo into your home directory.
 
-Install zsh plugins:
-
-```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
-```
+Zinit and all zsh plugins are installed automatically on first shell load — no manual steps required.
 
 ## Tmux Cheatsheet
 

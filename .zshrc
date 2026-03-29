@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(~/.local/bin/mise activate zsh)"
 
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # bun completions
 [ -s "/home/arkady/.bun/_bun" ] && source "/home/arkady/.bun/_bun"
@@ -27,3 +27,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$PATH:/Users/arkady/.lmstudio/bin"
 # End of LM Studio CLI section
 
+eval "$(fzf --zsh)"

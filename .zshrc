@@ -8,7 +8,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 export PATH="$PATH:$HOME/.dotnet/tools"
 
-plugins=(git ssh dotnet colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git ssh dotnet colored-man-pages zsh-syntax-highlighting zsh-autosuggestions zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 

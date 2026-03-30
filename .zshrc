@@ -35,5 +35,8 @@ eval "$(~/.local/bin/mise activate zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(fzf --zsh)"
 
+# Aliases
+[ -f "$HOME/.zsh_aliases" ] && source "$HOME/.zsh_aliases"
+
 # bun completions
 [ -s "/home/arkady/.bun/_bun" ] && source "/home/arkady/.bun/_bun"

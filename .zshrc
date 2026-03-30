@@ -1,5 +1,6 @@
 # PATH
 export PATH="$HOME/.local/bin:$PATH"
+[ -d "$HOME/.local-bin" ] && export PATH="$HOME/.local-bin:$PATH"
 export PATH="$PATH:$HOME/.applinks"
 export PATH="$PATH:$HOME/.dotnet/tools"
 export PATH="$PATH:/Users/arkady/.lmstudio/bin"

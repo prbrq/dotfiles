@@ -8,6 +8,9 @@ alias ls='ls --color=auto'
 alias ll='ls -lh --color=auto'
 alias la='ls -lAh --color=auto'
 
+# Neovim
+alias vim='nvim'
+
 # Safety
 alias cp='cp -i'
 alias mv='mv -i'

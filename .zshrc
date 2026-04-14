@@ -40,4 +40,4 @@ eval "$(fzf --zsh)"
 [ -f "$HOME/.zsh_aliases" ] && source "$HOME/.zsh_aliases"
 
 # bun completions
-[ -s "/home/arkady/.bun/_bun" ] && source "/home/arkady/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun" || true

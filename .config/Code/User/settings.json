@@ -2,6 +2,7 @@
     "update.mode": "none",
     "vim.useSystemClipboard": true,
     "editor.lineNumbers": "relative",
+    "workbench.editor.splitOnDragAndDrop": false,
     "editor.fontFamily": "CaskaydiaMono Nerd Font",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
@@ -50,5 +51,8 @@
         "https://json-schema.org/": true,
         "https://developer.microsoft.com/json-schemas/": true,
         "https://raw.githubusercontent.com": true
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
     }
 }

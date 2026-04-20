@@ -10,7 +10,6 @@
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
-    "chat.disableAIFeatures": true,
     "editor.smoothScrolling": true,
     "cSpell.language": "en, ru",
     "workbench.editor.labelFormat": "medium",

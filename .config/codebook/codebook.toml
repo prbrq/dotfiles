@@ -3,6 +3,10 @@ dictionaries = [
     "ru",
 ]
 words = [
+    "appsettings",
+    "Arkady",
+    "Caskaydia",
     "dto",
+    "MIAC",
     "Контроли",
 ]

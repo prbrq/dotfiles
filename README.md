@@ -8,8 +8,10 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 |------|-------------|
 | `.zshrc` | Zsh config — zinit, mise, zoxide, bun |
 | `.tmux.conf` | Tmux config — custom prefix, vim keys, status bar |
-| `.config/Code/User/settings.json` | VS Code settings |
-| `.config/Code/User/keybindings.json` | VS Code keybindings |
+| `.config/zed/settings.json` | Zed settings — Vim mode, C# formatting, Codebook |
+| `.config/zed/keymap.json` | Zed keybindings |
+| `.config/ghostty/config` | Ghostty terminal settings |
+| `.config/nvim/init.lua` | Neovim settings |
 | `.config/codebook/codebook.toml` | Codebook spell checker settings |
 
 ## Prerequisites
@@ -20,7 +22,8 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [tmux](https://github.com/tmux/tmux)
 - [bun](https://bun.sh/)
-- [VS Code](https://code.visualstudio.com/)
+- [Zed](https://zed.dev/)
+- [Ghostty](https://ghostty.org/)
 - [Codebook](https://github.com/blopker/codebook) — spell checker for Zed
 
 ## Installation

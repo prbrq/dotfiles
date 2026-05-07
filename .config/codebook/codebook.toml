@@ -1,0 +1,8 @@
+dictionaries = [
+    "en_us",
+    "ru",
+]
+words = [
+    "dto",
+    "Контроли",
+]

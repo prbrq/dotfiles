@@ -1,0 +1,53 @@
+{
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry",
+    },
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_family": "CaskaydiaMono Nerd Font",
+  "theme": {
+    "mode": "light",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "relative_line_numbers": "enabled",
+  "languages": {
+    "CSharp": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "dotnet",
+          "arguments": ["csharpier", "format"],
+        },
+      },
+    },
+  },
+}

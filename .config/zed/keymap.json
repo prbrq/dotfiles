@@ -1,0 +1,11 @@
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space h": "pane::ActivatePreviousItem",
+      "space l": "pane::ActivateNextItem",
+      "space H": "pane::SwapItemLeft",
+      "space L": "pane::SwapItemRight",
+    },
+  },
+]

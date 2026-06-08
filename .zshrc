@@ -41,3 +41,5 @@ eval "$(fzf --zsh)"
 
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun" || true
+
+export PATH=$PATH:$HOME/go/bin

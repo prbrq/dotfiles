@@ -1,9 +1,10 @@
 {
   "cli_default_open_behavior": "new_window",
   "agent_servers": {
-    "codex-acp": {
-      "type": "registry",
-    },
+    "pi-acp": {
+      "default_model": "ollama/deepseek-v4-pro:cloud",
+      "type": "registry"
+    }
   },
   "session": {
     "trust_all_worktrees": true,
@@ -34,6 +35,12 @@
     "diagnostics": false,
     "metrics": false,
   },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "show_edit_predictions": false,
   "languages": {
     "CSharp": {
       "format_on_save": "on",

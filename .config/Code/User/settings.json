@@ -53,5 +53,7 @@
     },
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
-    }
+    },
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.browser.showInTitleBar": false
 }

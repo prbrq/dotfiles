@@ -1,0 +1,12 @@
+{
+  "defaultModel": "deepseek-v4-flash:cloud",
+  "defaultProvider": "ollama",
+  "defaultThinkingLevel": "high",
+  "enableSkillCommands": true,
+  "lastChangelogVersion": "0.78.1",
+  "packages": [
+    "npm:@ollama/pi-web-search",
+    "npm:pi-simplify",
+    "npm:pi-lsp"
+  ]
+}

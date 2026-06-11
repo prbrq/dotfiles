@@ -3,10 +3,9 @@
   "defaultProvider": "ollama",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.79.0",
+  "lastChangelogVersion": "0.79.1",
   "packages": [
     "npm:@ollama/pi-web-search",
-    "npm:pi-simplify",
-    "npm:pi-lsp"
+    "npm:pi-simplify"
   ]
 }

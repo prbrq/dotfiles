@@ -3,8 +3,8 @@
   "agent_servers": {
     "pi-acp": {
       "default_model": "ollama/deepseek-v4-pro:cloud",
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "session": {
     "trust_all_worktrees": true,
@@ -23,9 +23,6 @@
     "dark": "One Dark",
   },
   "relative_line_numbers": "enabled",
-  "scrollbar": {
-    "show": "never",
-  },
   "git": {
     "inline_blame": {
       "enabled": false,

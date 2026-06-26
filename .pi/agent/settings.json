@@ -1,11 +1,18 @@
 {
-  "defaultModel": "deepseek-v4-flash:cloud",
+  "defaultModel": "glm-5.2:cloud",
   "defaultProvider": "ollama",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.79.3",
+  "lastChangelogVersion": "0.79.9",
   "packages": [
     "npm:@ollama/pi-web-search",
-    "npm:pi-simplify"
-  ]
+    "npm:pi-simplify",
+    "npm:@llblab/pi-telegram",
+    "npm:pi-universal-view",
+    "npm:pi-ocr"
+  ],
+  "theme": "dark",
+  "piOcr": {
+    "backend": "tesseract"
+  }
 }

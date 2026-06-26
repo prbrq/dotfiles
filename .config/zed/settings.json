@@ -11,14 +11,14 @@
   },
   "vim_mode": true,
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Zed (Default)",
     "dark": "Zed (Default)",
   },
   "buffer_font_family": "CaskaydiaMono Nerd Font",
   "buffer_font_size": 16,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "One Light",
     "dark": "One Dark",
   },

@@ -22,6 +22,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [tmux](https://github.com/tmux/tmux)
 - [bun](https://bun.sh/)
+- [eza](https://github.com/eza-community/eza) — modern `ls` (recommended; aliases fall back to `ls` if absent)
 - [Zed](https://zed.dev/)
 - [Ghostty](https://ghostty.org/)
 - [Codebook](https://github.com/blopker/codebook) — spell checker for Zed
@@ -70,7 +71,7 @@ Prefix: `Ctrl+a`
 |-----|--------|
 | `prefix + v` | Enter copy mode |
 | `v` | Begin selection |
-| `y` | Copy selection to clipboard (`pbcopy`) |
+| `y` | Copy selection to system clipboard (macOS: `pbcopy`, Wayland: `wl-copy`, X11: `xclip`) |
 | `Escape` | Cancel |
 
 ### Misc

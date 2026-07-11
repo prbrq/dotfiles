@@ -1,9 +1,9 @@
 {
-  "defaultModel": "glm-5.2:cloud",
-  "defaultProvider": "ollama",
+  "defaultModel": "gpt-5.5",
+  "defaultProvider": "openai-codex",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.80.2",
+  "lastChangelogVersion": "0.80.3",
   "packages": [
     "npm:@ollama/pi-web-search",
     "npm:pi-simplify",

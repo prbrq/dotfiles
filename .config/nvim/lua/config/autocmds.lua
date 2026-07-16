@@ -1,2 +1,0 @@
--- Autocmds are loaded on the VeryLazy event.
--- Add local autocmds here when needed.

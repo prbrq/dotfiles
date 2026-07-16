@@ -12,7 +12,6 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 | `.config/zed/settings.json` | Zed settings — Vim mode, C# formatting, Codebook |
 | `.config/zed/keymap.json` | Zed keybindings |
 | `.config/ghostty/config` | Ghostty terminal settings |
-| `.config/nvim/init.lua` | Neovim config — LazyVim + Roslyn C# stack; see `.config/nvim/README.md` |
 | `.config/codebook/codebook.toml` | Codebook spell checker settings |
 | `.config/Code/User/*` | VS Code settings |
 | `.pi/agent/settings.json` | pi agent config — **managed by pi, do not hand-edit** |
@@ -29,9 +28,6 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 - [Zed](https://zed.dev/)
 - [Ghostty](https://ghostty.org/)
 - [Codebook](https://github.com/blopker/codebook) — spell checker for Zed
-- [Neovim](https://neovim.io/) >= 0.12 — LazyVim/Roslyn setup
-- [.NET SDK](https://dotnet.microsoft.com/download) — required by Roslyn/C# tooling
-- [roslyn-language-server](https://github.com/dotnet/roslyn) — installed as a global dotnet tool
 
 ## Installation
 
@@ -45,8 +41,6 @@ stow --no-folding --adopt .
 Stow will create symlinks from this repo into your home directory.
 
 Zinit and all zsh plugins are installed automatically on first shell load — no manual steps required.
-
-For Neovim C# support, see `.config/nvim/README.md`.
 
 The repo is the canonical home of these configs; do **not** edit the symlinked copies
 in `$HOME` directly. Always edit the files here. After editing, stowed symlinks pick
@@ -119,8 +113,6 @@ assume one OS:
   (`hjkl`). Respect these defaults when touching tmux bindings.
 - Zsh uses **zinit** (not oh-my-zsh directly) — load plugins via `zinit` /
   `zinit snippet OMZP::...` / `zinit light`. Don't switch plugin managers.
-- Neovim uses **LazyVim + roslyn.nvim** for C#. Don't enable LazyVim's
-  `lang.dotnet` extra unless explicitly asked — it configures OmniSharp.
 - Aliases live in `.zsh_aliases`; `.zshrc` is kept minimal (bootstrap only).
 - Default provider/model for pi lives in `.pi/agent/settings.json`.
 
@@ -133,8 +125,6 @@ There is no test suite. Validate manually:
 - **Tmux:** `tmux -f .tmux.conf new-session -d` then inspect, or run
   `tmux source-file .tmux.conf` inside an existing session.
 - **eza/ls aliases:** open a fresh shell and run `ls`, `ll`, `la`, `lt`.
-- **Neovim:** `nvim --headless "+Lazy! sync" "+sleep 10" +qa` to install/update plugins;
-  open a `.cs` file in a project and run `:LspInfo` to confirm Roslyn attached.
 - **JSON files** (Zed, Code): `python3 -m json.tool < file` or `jq . file` to
   confirm validity.
 

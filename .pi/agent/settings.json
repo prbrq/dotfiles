@@ -3,14 +3,17 @@
   "defaultProvider": "openai-codex",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.80.6",
+  "lastChangelogVersion": "0.80.7",
   "packages": [
     "npm:pi-simplify",
     "npm:@llblab/pi-telegram",
     "npm:pi-universal-view",
     "npm:pi-ocr",
     "npm:pi-web-access",
-    "npm:@hypabolic/pi-hypa"
+    "npm:@hypabolic/pi-hypa",
+    "npm:pi-mcp-adapter",
+    "npm:context-mode",
+    "npm:pi-readseek"
   ],
   "theme": "dark",
   "piOcr": {

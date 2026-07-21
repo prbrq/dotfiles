@@ -9,6 +9,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 | `.zshrc` | Zsh config — zinit, mise, zoxide, bun |
 | `.zsh_aliases` | `ls`/`eza`, navigation + safety aliases |
 | `.tmux.conf` | Tmux config — custom prefix, vim keys, status bar |
+| `.config/nvim/init.lua` | Neovim config — minimal Markdown rendering |
 | `.config/zed/settings.json` | Zed settings — Vim mode, C# formatting, Codebook |
 | `.config/zed/keymap.json` | Zed keybindings |
 | `.config/ghostty/config` | Ghostty terminal settings |
@@ -23,6 +24,8 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 - [mise](https://mise.jdx.dev/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [tmux](https://github.com/tmux/tmux)
+- [Neovim 0.12+](https://neovim.io/) — minimal Markdown editor config
+- [tree-sitter CLI](https://tree-sitter.github.io/tree-sitter/) — required for Neovim Markdown parser install
 - [bun](https://bun.sh/)
 - [eza](https://github.com/eza-community/eza) — modern `ls` (recommended; aliases fall back to `ls` if absent)
 - [Zed](https://zed.dev/)
@@ -41,6 +44,7 @@ stow --no-folding --adopt .
 Stow will create symlinks from this repo into your home directory.
 
 Zinit and all zsh plugins are installed automatically on first shell load — no manual steps required.
+Neovim plugins are managed by `lazy.nvim` and installed automatically on first `nvim` launch.
 
 The repo is the canonical home of these configs; do **not** edit the symlinked copies
 in `$HOME` directly. Always edit the files here. After editing, stowed symlinks pick
@@ -124,6 +128,7 @@ There is no test suite. Validate manually:
   `zsh -n .zsh_aliases` checks syntax without executing.
 - **Tmux:** `tmux -f .tmux.conf new-session -d` then inspect, or run
   `tmux source-file .tmux.conf` inside an existing session.
+- **Neovim:** `nvim --headless "+Lazy! sync" +qa` installs/syncs plugins; `nvim --headless "+qa"` checks startup.
 - **eza/ls aliases:** open a fresh shell and run `ls`, `ll`, `la`, `lt`.
 - **JSON files** (Zed, Code): `python3 -m json.tool < file` or `jq . file` to
   confirm validity.

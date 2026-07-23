@@ -5,18 +5,11 @@
   "enableSkillCommands": true,
   "lastChangelogVersion": "0.81.1",
   "packages": [
-    "npm:pi-simplify",
-    "npm:@llblab/pi-telegram",
-    "npm:pi-universal-view",
-    "npm:pi-ocr",
     "npm:pi-web-access",
     "npm:@hypabolic/pi-hypa",
     "npm:pi-mcp-adapter",
     "npm:context-mode",
     "npm:pi-readseek"
   ],
-  "theme": "dark",
-  "piOcr": {
-    "backend": "tesseract"
-  }
+  "theme": "dark"
 }

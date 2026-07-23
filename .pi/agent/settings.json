@@ -6,7 +6,6 @@
   "lastChangelogVersion": "0.81.1",
   "packages": [
     "npm:pi-web-access",
-    "npm:@hypabolic/pi-hypa",
     "npm:pi-mcp-adapter",
     "npm:context-mode",
     "npm:pi-readseek"

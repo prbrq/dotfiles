@@ -1,0 +1,58 @@
+# Herdr config — terminal-native agent multiplexer.
+# Docs: https://herdr.dev/docs/configuration/
+
+# Skip first-run onboarding prompts on new machines; settings remain editable in-app.
+onboarding = false
+
+[theme]
+# Follow Ghostty/Zed light/dark appearance when the terminal reports it.
+name = "catppuccin"
+auto_switch = true
+light_name = "catppuccin-latte"
+dark_name = "catppuccin"
+
+[terminal]
+# New panes/tabs follow the current working directory.
+new_cwd = "follow"
+shell_mode = "auto"
+
+[keys]
+# Keep familiar multiplexer muscle memory where it maps cleanly.
+prefix = "ctrl+a"
+
+# Tabs.
+new_tab = "prefix+c"
+next_tab = "prefix+n"
+previous_tab = "prefix+p"
+close_tab = "prefix+shift+x"
+
+# Panes.
+focus_pane_left = "prefix+h"
+focus_pane_down = "prefix+j"
+focus_pane_up = "prefix+k"
+focus_pane_right = "prefix+l"
+swap_pane_left = "prefix+shift+h"
+swap_pane_down = "prefix+shift+j"
+swap_pane_up = "prefix+shift+k"
+swap_pane_right = "prefix+shift+l"
+split_vertical = "prefix+v"
+split_horizontal = "prefix+minus"
+close_pane = "prefix+x"
+resize_mode = "prefix+r"
+copy_mode = "prefix+["
+
+# Session/workspace helpers.
+workspace_picker = "prefix+w"
+goto = "prefix+g"
+detach = "prefix+q"
+reload_config = "prefix+shift+r"
+help = "prefix+?"
+
+[ui]
+pane_borders = true
+pane_gaps = true
+copy_on_select = true
+
+[ui.toast]
+delivery = "herdr"
+delay_seconds = 1

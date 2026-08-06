@@ -8,7 +8,6 @@
     "npm:pi-mcp-adapter",
     "npm:context-mode",
     "npm:pi-readseek",
-    "npm:@ollama/pi-web-search",
     "npm:pi-ollama-cloud"
   ],
   "theme": "dark"

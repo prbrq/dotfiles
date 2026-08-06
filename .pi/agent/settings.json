@@ -3,7 +3,7 @@
   "defaultProvider": "ollama-cloud",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.83.0",
+  "lastChangelogVersion": "0.84.0",
   "packages": [
     "npm:pi-mcp-adapter",
     "npm:context-mode",

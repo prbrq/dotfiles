@@ -1,14 +1,15 @@
 {
-  "defaultModel": "gpt-5.5",
-  "defaultProvider": "openai-codex",
+  "defaultModel": "glm-5.2",
+  "defaultProvider": "ollama-cloud",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.82.1",
+  "lastChangelogVersion": "0.83.0",
   "packages": [
-    "npm:pi-web-access",
     "npm:pi-mcp-adapter",
     "npm:context-mode",
-    "npm:pi-readseek"
+    "npm:pi-readseek",
+    "npm:@ollama/pi-web-search",
+    "npm:pi-ollama-cloud"
   ],
   "theme": "dark"
 }

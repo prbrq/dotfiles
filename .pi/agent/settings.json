@@ -1,9 +1,9 @@
 {
-  "defaultModel": "glm-5.2",
+  "defaultModel": "deepseek-v4-flash:0731",
   "defaultProvider": "ollama-cloud",
   "defaultThinkingLevel": "high",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.84.0",
+  "lastChangelogVersion": "0.84.1",
   "packages": [
     "npm:pi-mcp-adapter",
     "npm:context-mode",

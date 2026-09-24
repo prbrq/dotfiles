@@ -1,14 +1,15 @@
 {
-  "defaultModel": "deepseek-v4-flash:0731",
-  "defaultProvider": "ollama-cloud",
-  "defaultThinkingLevel": "high",
+  "defaultModel": "gpt-6-sol",
+  "defaultProvider": "openai-codex",
+  "defaultThinkingLevel": "medium",
   "enableSkillCommands": true,
-  "lastChangelogVersion": "0.84.1",
+  "lastChangelogVersion": "0.87.1",
   "packages": [
     "npm:pi-mcp-adapter",
     "npm:context-mode",
     "npm:pi-readseek",
-    "npm:pi-ollama-cloud"
+    "npm:pi-ollama-cloud",
+    "npm:pi-simplify"
   ],
   "theme": "dark"
 }

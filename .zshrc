@@ -42,3 +42,6 @@ eval "$(fzf --zsh)"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun" || true
 
 export PATH=$PATH:$HOME/go/bin
+
+# opencode
+export PATH=/home/arkady/.opencode/bin:$PATH

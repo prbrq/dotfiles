@@ -7,7 +7,7 @@ onboarding = false
 [theme]
 # Follow Ghostty/Zed light/dark appearance when the terminal reports it.
 name = "catppuccin"
-auto_switch = true
+auto_switch = false
 light_name = "catppuccin-latte"
 dark_name = "catppuccin"
 
